@@ -15,7 +15,9 @@ html {
 }
 
 img {
-    size: 50%;
+    height: 200px;
+    width: 50%;
+    vertical-align: left;
 }
 
 /*
@@ -53,10 +55,9 @@ hr {
 audio,
 canvas,
 iframe,
-img,
 svg,
 video {
-    vertical-align: middle;
+    vertical-align: left;
 }
 
 /*
